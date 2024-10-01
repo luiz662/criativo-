@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    max-width: 1730px;
+    /* para definir a largura máxima do projeto por inteiro. */
+    margin: auto;
+    /* margin auto significa que independente do tamanho da tela ele vai centralizar */
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+
+    & nav,
+    nav ul {
+        display: flex;
+        gap: 51px;
+        align-items: center;
+
+        & li a {
+            color: #6b7280;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+
+        & li:first-child a {
+            color: #000;
+            font-weight: 600;
+        }
+
+    }
+
+    & button {
+        padding: 13px 35px;
+        border-radius: 8.07px;
+        background: #1F1F39;
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        border: none;
+    }
+}
+
+section {
+    max-width: 1730px;
+    margin: auto;
+    padding: 120px;
+}
+
+.home {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+
+
+    & .content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        & h1 {
+            color: #1F1F39;
+            font-size: 70px;
+            font-weight: 700;
+        }
+
+        & p {
+
+            font-size: 28px;
+            line-height: 48px;
+            color: #1f1f39b2;
+        }
+
+        & button {
+            width: Fixed (246.49px)px;
+            padding: 10.87px ;
+            border-radius: 10.87px ;
+            border: none;
+            background: #1F1F39;
+            font-size: 24.24px;
+            font-weight: 700;
+            color: #fff;
+           
+    }
+}
+}
+
+.Portifólio{
+    & h2 {
+       max-width: 980px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+        margin-bottom: 109px;
+    }
+
+    & .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap:60px;
+        & .card{
+    
+        }
+
+        & img{
+            width: 100%;
+        }
+    }
+}
